@@ -2,7 +2,7 @@ package com.care.dao;
 
 import org.springframework.stereotype.Repository;
 
-@Repository
+@Repository	// dao단
 public class TestDAO {
 	
 	public TestDAO() {

@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class App implements ApplicationContextAware{
 	public static ApplicationContext ac;
+	public App() {
+		System.out.println("app 생성자");
+	}
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 		System.out.println("apllication 실행됩니다.");

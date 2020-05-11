@@ -23,8 +23,8 @@
 	
 	<!-- 
 	<beans:bean id="testClass" class="com.care.controller.TestClass"/>
-	-->
-	<beans:bean id="dao02" class="com.care.dao.TestDAO"/>
+	
+	<beans:bean id="dao02" class="com.care.dao.TestDAO"/>-->
 	<context:component-scan base-package="com.care.controller" />
 	<context:component-scan base-package="com.care.*"/>
 	

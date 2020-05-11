@@ -7,5 +7,5 @@
 	
 	<!-- <bean id="test02" class="com.care.test02.Test02"/> -->
 	<context:component-scan base-package="com.care.test02"/>
-
+	
 </beans>
